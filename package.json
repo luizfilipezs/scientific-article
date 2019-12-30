@@ -1,0 +1,27 @@
+{
+  "name": "scientific-article",
+  "version": "1.0.0",
+  "description": "Just a project for hosting my article",
+  "main": "index.js",
+  "scripts": {
+    "compile": "stylus -w stylus/style.styl -o css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizfilipezs/scientific-article.git"
+  },
+  "keywords": [
+    "psicologia",
+    "projecao",
+    "origens"
+  ],
+  "author": "Luiz Filipe da Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luizfilipezs/scientific-article/issues"
+  },
+  "homepage": "https://github.com/luizfilipezs/scientific-article#readme",
+  "dependencies": {
+    "stylus": "^0.54.7"
+  }
+}

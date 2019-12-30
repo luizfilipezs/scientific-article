@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap')
+
+font = 'Bitter', serif
+theme = #f8f8f8
+text-color = #151515
+
+select(val)
+  -webkit-touch-callout val
+  -webkit-user-select val
+  -khtml-user-select val
+  -moz-user-select val
+  -ms-user-select val
+  user-select val
+
+*
+  margin 0 auto
+  padding 0
+
+body
+  width 100%
+  height auto
+  padding 3% 0 2% 0
+  select(none)
+  font-family font
+  font-size 62.5%
+  color text-color
+  background-color theme
+
+.title
+  font-size 7.2em
+  margin-bottom .1em
+  text-align center
+
+.date
+.author
+  margin-top .25em
+  font-size 1.2em
+  font-style italic
+  text-align center
+
+.article-body
+  width 900px
+  margin-top 4em
+  .paragraph
+    margin-bottom .25em
+    line-height 150%
+    font-size 1.65em
+    text-align left
+    text-indent 2.5em
+
+@media (max-width: 1600px)
+  body
+    font-size 60%
+  .title
+    font-size 6.5em
+
+@media (max-width: 1366px)
+  body
+    font-size 57.5%
+  .title
+    font-size 5.5em
+
+@media (max-width: 960px)
+  body
+    font-size 55%
+  .title
+    font-size 5em
+  .article-body
+    width 90%
+
+@media (max-width: 600px)
+  body
+    padding-top 4vh
+    font-size 52.5%
+  .title
+    font-size 4.25em
+  .article-body
+    margin-top 3.5em
