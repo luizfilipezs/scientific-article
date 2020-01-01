@@ -33,6 +33,7 @@ body {
 .article-body {
   width: 900px;
   margin-top: 4em;
+  margin-bottom: 1em;
 }
 .article-body .paragraph {
   margin-bottom: 0.25em;
@@ -40,6 +41,20 @@ body {
   font-size: 1.65em;
   text-align: left;
   text-indent: 2.5em;
+}
+.topic {
+  margin-top: 1em;
+  font-size: 3em;
+  text-align: center;
+}
+.another-article-link {
+  margin: 0.5em;
+  font-size: 1.65em;
+  text-align: center;
+}
+.another-article-link a {
+  text-decoration: none;
+  color: #151515;
 }
 @media (max-width: 1600px) {
   body {
