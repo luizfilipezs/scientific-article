@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter&display=swap')
 
 font = 'Bitter', serif
-theme = #f8f8f8
-text-color = #151515
+theme = #111
+text-color = #f0f0f0
 
 select(val)
   -webkit-touch-callout val
@@ -27,14 +27,15 @@ body
   background-color theme
 
 .title
+  width 90%
   font-size 7.2em
-  margin-bottom .1em
+  margin-bottom .2em
   text-align center
 
 .date
 .author
   margin-top .25em
-  font-size 1.2em
+  font-size 1.35em
   font-style italic
   text-align center
 
@@ -84,9 +85,12 @@ body
 
 @media (max-width: 600px)
   body
-    padding-top 4vh
-    font-size 52.5%
+    padding-top 4.5vh
+    padding-bottom 4.5vh
   .title
     font-size 4.25em
   .article-body
+    width 85%
     margin-top 3.5em
+    .paragraph
+      text-align justify

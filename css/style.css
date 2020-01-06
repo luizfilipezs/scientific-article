@@ -15,18 +15,19 @@ body {
   user-select: none;
   font-family: 'Bitter', serif;
   font-size: 62.5%;
-  color: #151515;
-  background-color: #f8f8f8;
+  color: #f0f0f0;
+  background-color: #111;
 }
 .title {
+  width: 90%;
   font-size: 7.2em;
-  margin-bottom: 0.1em;
+  margin-bottom: 0.2em;
   text-align: center;
 }
 .date,
 .author {
   margin-top: 0.25em;
-  font-size: 1.2em;
+  font-size: 1.35em;
   font-style: italic;
   text-align: center;
 }
@@ -54,7 +55,7 @@ body {
 }
 .another-article-link a {
   text-decoration: none;
-  color: #151515;
+  color: #f0f0f0;
 }
 @media (max-width: 1600px) {
   body {
@@ -85,13 +86,17 @@ body {
 }
 @media (max-width: 600px) {
   body {
-    padding-top: 4vh;
-    font-size: 52.5%;
+    padding-top: 4.5vh;
+    padding-bottom: 4.5vh;
   }
   .title {
     font-size: 4.25em;
   }
   .article-body {
+    width: 85%;
     margin-top: 3.5em;
+  }
+  .article-body .paragraph {
+    text-align: justify;
   }
 }
